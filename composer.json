@@ -1,0 +1,33 @@
+{
+  "name": "firmaprofesional/tin-validator-bridge",
+  "license": "MIT",
+  "type": "library",
+  "description": "European TIN validator service bridge",
+  "keywords": [
+    "eidas",
+    "european",
+    "eu",
+    "tin",
+    "validator",
+    "firmaprofesional"
+  ],
+  "homepage": "https://github.com/firmaprofesional/tin-validator-bridge",
+  "authors": [
+    {
+      "name": "Miquel Llagostera",
+      "email": "mllagostera@firmaprofesional.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "FP\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5.9",
+    "ext-openssl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6"
+  }
+}
