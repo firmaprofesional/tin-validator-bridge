@@ -1,5 +1,5 @@
 # tin-validator-bridge
-This library provides an static bridge to European TIN check WSDL
+This library provides an static bridge to European TIN check [WSDL](https://ec.europa.eu/taxation_customs/tin/checkTinService.wsdl)
 
 If you have questions or problems with installation or usage [create an Issue](https://github.com/firmaprofesional/tin-validator-bridge/issues).
 
