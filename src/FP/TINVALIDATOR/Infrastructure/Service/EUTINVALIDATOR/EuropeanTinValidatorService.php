@@ -73,4 +73,18 @@ class EuropeanTinValidatorService
 
         return false;
     }
+
+    public static function isValidStructure($document, $country){
+        
+        $resultService = self::checkTin($document, $country);
+
+        if (
+            array_key_exists('validStructure', $resultService) && $resultService['validStructure']
+        ) {
+            return true;
+        }else{
+            return false;
+        }
+
+    }
 }
